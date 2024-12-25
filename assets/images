@@ -1,0 +1,8 @@
+ball.png     - 16x16px
+└── Ein einfacher weißer Kreis mit leichtem Glanz
+
+block.png    - 80x30px
+└── Ein abgerundetes Rechteck mit Farbverlauf
+
+button.png   - 180x40px
+└── Ein abgerundeter Button mit Hover-Zustand 

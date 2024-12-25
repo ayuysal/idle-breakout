@@ -1,0 +1,31 @@
+.ball {
+    width: 16px;
+    height: 16px;
+    background: radial-gradient(circle at 30% 30%, #ffffff 0%, #e0e0e0 60%, #b0b0b0 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.block {
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(to bottom, #4a90e2 0%, #357abd 100%);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    width: 180px;
+    height: 40px;
+    background: linear-gradient(to bottom, #4a90e2 0%, #357abd 100%);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #357abd 0%, #2868a9 100%);
+    transform: translateY(1px);
+} 
