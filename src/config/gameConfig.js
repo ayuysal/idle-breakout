@@ -1,4 +1,4 @@
-export const gameConfig = {
+const gameConfig = {
     type: Phaser.AUTO,
     width: 800,
     height: 600,
@@ -16,8 +16,7 @@ export const gameConfig = {
     }
 };
 
-// Spielkonstanten
-export const CONSTANTS = {
+const CONSTANTS = {
     BALL: {
         BASE_SPEED: 200,
         BASE_DAMAGE: 1,
@@ -28,10 +27,5 @@ export const CONSTANTS = {
         BASE_VALUE: 5,
         COLUMNS: 8,
         ROWS: 5
-    },
-    UPGRADES: {
-        DAMAGE_COST_MULTIPLIER: 1.5,
-        SPEED_COST_MULTIPLIER: 1.3,
-        BALL_COST_MULTIPLIER: 2
     }
 }; 
