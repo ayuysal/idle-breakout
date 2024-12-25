@@ -1,9 +1,5 @@
 console.log('Game loading...');
 
-import { gameConfig } from './config/gameConfig.js';
-import { GameScene } from './scenes/GameScene';
-import { UIScene } from './scenes/UIScene';
-
 window.onload = function() {
     const config = {
         ...gameConfig,

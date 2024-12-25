@@ -1,4 +1,4 @@
-export class UIScene extends Phaser.Scene {
+class UIScene extends Phaser.Scene {
     constructor() {
         super({ key: 'UIScene' });
         this.currency = 0;

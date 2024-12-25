@@ -1,4 +1,4 @@
-export class Ball extends Phaser.Physics.Arcade.Sprite {
+class Ball extends Phaser.Physics.Arcade.Sprite {
     constructor(scene, x, y, config = {}) {
         super(scene, x, y, 'ball');
         
